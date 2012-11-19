@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0726A4A5165A35FB00E94AF1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0726A4A4165A35FB00E94AF1 /* Cocoa.framework */; };
+		0726A4AF165A35FB00E94AF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0726A4AD165A35FB00E94AF1 /* InfoPlist.strings */; };
+		0726A4B1165A35FB00E94AF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726A4B0165A35FB00E94AF1 /* main.m */; };
+		0726A4B5165A35FB00E94AF1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0726A4B3165A35FB00E94AF1 /* Credits.rtf */; };
+		0726A4B8165A35FB00E94AF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726A4B7165A35FB00E94AF1 /* AppDelegate.m */; };
+		0726A4BB165A35FC00E94AF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0726A4B9165A35FC00E94AF1 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0726A4A0165A35FB00E94AF1 /* OTMultiCALayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTMultiCALayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0726A4A4165A35FB00E94AF1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0726A4A7165A35FB00E94AF1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0726A4A8165A35FB00E94AF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0726A4A9165A35FB00E94AF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0726A4AC165A35FB00E94AF1 /* OTMultiCALayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OTMultiCALayer-Info.plist"; sourceTree = "<group>"; };
+		0726A4AE165A35FB00E94AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0726A4B0165A35FB00E94AF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0726A4B2165A35FB00E94AF1 /* OTMultiCALayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OTMultiCALayer-Prefix.pch"; sourceTree = "<group>"; };
+		0726A4B4165A35FB00E94AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0726A4B6165A35FB00E94AF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0726A4B7165A35FB00E94AF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0726A4BA165A35FC00E94AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0726A49D165A35FB00E94AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0726A4A5165A35FB00E94AF1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0726A495165A35FB00E94AF1 = {
+			isa = PBXGroup;
+			children = (
+				0726A4AA165A35FB00E94AF1 /* OTMultiCALayer */,
+				0726A4A3165A35FB00E94AF1 /* Frameworks */,
+				0726A4A1165A35FB00E94AF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0726A4A1165A35FB00E94AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0726A4A0165A35FB00E94AF1 /* OTMultiCALayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0726A4A3165A35FB00E94AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0726A4A4165A35FB00E94AF1 /* Cocoa.framework */,
+				0726A4A6165A35FB00E94AF1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0726A4A6165A35FB00E94AF1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0726A4A7165A35FB00E94AF1 /* AppKit.framework */,
+				0726A4A8165A35FB00E94AF1 /* CoreData.framework */,
+				0726A4A9165A35FB00E94AF1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0726A4AA165A35FB00E94AF1 /* OTMultiCALayer */ = {
+			isa = PBXGroup;
+			children = (
+				0726A4B6165A35FB00E94AF1 /* AppDelegate.h */,
+				0726A4B7165A35FB00E94AF1 /* AppDelegate.m */,
+				0726A4B9165A35FC00E94AF1 /* MainMenu.xib */,
+				0726A4AB165A35FB00E94AF1 /* Supporting Files */,
+			);
+			path = OTMultiCALayer;
+			sourceTree = "<group>";
+		};
+		0726A4AB165A35FB00E94AF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0726A4AC165A35FB00E94AF1 /* OTMultiCALayer-Info.plist */,
+				0726A4AD165A35FB00E94AF1 /* InfoPlist.strings */,
+				0726A4B0165A35FB00E94AF1 /* main.m */,
+				0726A4B2165A35FB00E94AF1 /* OTMultiCALayer-Prefix.pch */,
+				0726A4B3165A35FB00E94AF1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0726A49F165A35FB00E94AF1 /* OTMultiCALayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0726A4BE165A35FC00E94AF1 /* Build configuration list for PBXNativeTarget "OTMultiCALayer" */;
+			buildPhases = (
+				0726A49C165A35FB00E94AF1 /* Sources */,
+				0726A49D165A35FB00E94AF1 /* Frameworks */,
+				0726A49E165A35FB00E94AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTMultiCALayer;
+			productName = OTMultiCALayer;
+			productReference = 0726A4A0165A35FB00E94AF1 /* OTMultiCALayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0726A497165A35FB00E94AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Eric Yeh";
+			};
+			buildConfigurationList = 0726A49A165A35FB00E94AF1 /* Build configuration list for PBXProject "OTMultiCALayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0726A495165A35FB00E94AF1;
+			productRefGroup = 0726A4A1165A35FB00E94AF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0726A49F165A35FB00E94AF1 /* OTMultiCALayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0726A49E165A35FB00E94AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0726A4AF165A35FB00E94AF1 /* InfoPlist.strings in Resources */,
+				0726A4B5165A35FB00E94AF1 /* Credits.rtf in Resources */,
+				0726A4BB165A35FC00E94AF1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0726A49C165A35FB00E94AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0726A4B1165A35FB00E94AF1 /* main.m in Sources */,
+				0726A4B8165A35FB00E94AF1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0726A4AD165A35FB00E94AF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0726A4AE165A35FB00E94AF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0726A4B3165A35FB00E94AF1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0726A4B4165A35FB00E94AF1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0726A4B9165A35FC00E94AF1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0726A4BA165A35FC00E94AF1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0726A4BC165A35FC00E94AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0726A4BD165A35FC00E94AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0726A4BF165A35FC00E94AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OTMultiCALayer/OTMultiCALayer-Prefix.pch";
+				INFOPLIST_FILE = "OTMultiCALayer/OTMultiCALayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0726A4C0165A35FC00E94AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OTMultiCALayer/OTMultiCALayer-Prefix.pch";
+				INFOPLIST_FILE = "OTMultiCALayer/OTMultiCALayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0726A49A165A35FB00E94AF1 /* Build configuration list for PBXProject "OTMultiCALayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0726A4BC165A35FC00E94AF1 /* Debug */,
+				0726A4BD165A35FC00E94AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0726A4BE165A35FC00E94AF1 /* Build configuration list for PBXNativeTarget "OTMultiCALayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0726A4BF165A35FC00E94AF1 /* Debug */,
+				0726A4C0165A35FC00E94AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0726A497165A35FB00E94AF1 /* Project object */;
+}
