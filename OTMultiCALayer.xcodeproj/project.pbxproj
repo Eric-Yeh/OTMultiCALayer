@@ -13,7 +13,26 @@
 		0726A4B5165A35FB00E94AF1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0726A4B3165A35FB00E94AF1 /* Credits.rtf */; };
 		0726A4B8165A35FB00E94AF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726A4B7165A35FB00E94AF1 /* AppDelegate.m */; };
 		0726A4BB165A35FC00E94AF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0726A4B9165A35FC00E94AF1 /* MainMenu.xib */; };
+		0726A4C3165A365700E94AF1 /* OTLayerDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726A4C2165A365700E94AF1 /* OTLayerDrawing.m */; };
+		0726A4C8165A388000E94AF1 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0726A4C6165A387500E94AF1 /* Quartz.framework */; };
+		0726A4C9165A388200E94AF1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0726A4C4165A386E00E94AF1 /* QuartzCore.framework */; };
+		0726A4CB165A388A00E94AF1 /* QuartzCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0726A4C4165A386E00E94AF1 /* QuartzCore.framework */; };
+		0726A4CC165A388D00E94AF1 /* Quartz.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0726A4C6165A387500E94AF1 /* Quartz.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0726A4CA165A388400E94AF1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0726A4CB165A388A00E94AF1 /* QuartzCore.framework in CopyFiles */,
+				0726A4CC165A388D00E94AF1 /* Quartz.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0726A4A0165A35FB00E94AF1 /* OTMultiCALayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTMultiCALayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +48,10 @@
 		0726A4B6165A35FB00E94AF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0726A4B7165A35FB00E94AF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0726A4BA165A35FC00E94AF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0726A4C1165A365700E94AF1 /* OTLayerDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTLayerDrawing.h; path = ../OTLayerDrawing.h; sourceTree = "<group>"; };
+		0726A4C2165A365700E94AF1 /* OTLayerDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTLayerDrawing.m; path = ../OTLayerDrawing.m; sourceTree = "<group>"; };
+		0726A4C4165A386E00E94AF1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0726A4C6165A387500E94AF1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +60,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0726A4A5165A35FB00E94AF1 /* Cocoa.framework in Frameworks */,
+				0726A4C8165A388000E94AF1 /* Quartz.framework in Frameworks */,
+				0726A4C9165A388200E94AF1 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,8 @@
 		0726A4A3165A35FB00E94AF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0726A4C6165A387500E94AF1 /* Quartz.framework */,
+				0726A4C4165A386E00E94AF1 /* QuartzCore.framework */,
 				0726A4A4165A35FB00E94AF1 /* Cocoa.framework */,
 				0726A4A6165A35FB00E94AF1 /* Other Frameworks */,
 			);
@@ -85,6 +112,8 @@
 				0726A4B6165A35FB00E94AF1 /* AppDelegate.h */,
 				0726A4B7165A35FB00E94AF1 /* AppDelegate.m */,
 				0726A4B9165A35FC00E94AF1 /* MainMenu.xib */,
+				0726A4C1165A365700E94AF1 /* OTLayerDrawing.h */,
+				0726A4C2165A365700E94AF1 /* OTLayerDrawing.m */,
 				0726A4AB165A35FB00E94AF1 /* Supporting Files */,
 			);
 			path = OTMultiCALayer;
@@ -112,6 +141,7 @@
 				0726A49C165A35FB00E94AF1 /* Sources */,
 				0726A49D165A35FB00E94AF1 /* Frameworks */,
 				0726A49E165A35FB00E94AF1 /* Resources */,
+				0726A4CA165A388400E94AF1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -168,6 +198,7 @@
 			files = (
 				0726A4B1165A35FB00E94AF1 /* main.m in Sources */,
 				0726A4B8165A35FB00E94AF1 /* AppDelegate.m in Sources */,
+				0726A4C3165A365700E94AF1 /* OTLayerDrawing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +290,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OTMultiCALayer/OTMultiCALayer-Prefix.pch";
 				INFOPLIST_FILE = "OTMultiCALayer/OTMultiCALayer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -271,7 +304,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OTMultiCALayer/OTMultiCALayer-Prefix.pch";
 				INFOPLIST_FILE = "OTMultiCALayer/OTMultiCALayer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

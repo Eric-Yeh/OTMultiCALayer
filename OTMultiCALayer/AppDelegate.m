@@ -9,15 +9,21 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-
+@synthesize otLayer;
 - (void)dealloc
 {
+    [otLayer release];
     [super dealloc];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    otLayer = [[OTLayerDrawing alloc]init];
 }
 
+- (IBAction)reDrawAction:(id)sender
+{
+    [otLayer changeDisplayLayer:otLayer.layer2];
+}
 @end
